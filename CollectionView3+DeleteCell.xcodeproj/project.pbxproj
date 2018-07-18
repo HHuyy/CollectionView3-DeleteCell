@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		DB9813EA20F9EA8E00D55313 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9813E920F9EA8E00D55313 /* AppDelegate.swift */; };
-		DB9813EC20F9EA8E00D55313 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9813EB20F9EA8E00D55313 /* ViewController.swift */; };
 		DB9813EF20F9EA8E00D55313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9813ED20F9EA8E00D55313 /* Main.storyboard */; };
 		DB9813F220F9EA8E00D55313 /* CollectionView3_DeleteCell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB9813F020F9EA8E00D55313 /* CollectionView3_DeleteCell.xcdatamodeld */; };
 		DB9813F420F9EA8E00D55313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9813F320F9EA8E00D55313 /* Assets.xcassets */; };
 		DB9813F720F9EA8E00D55313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9813F520F9EA8E00D55313 /* LaunchScreen.storyboard */; };
+		DB9813FF20F9EAD800D55313 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9813FE20F9EAD800D55313 /* CollectionViewController.swift */; };
+		DB98140120F9EAE500D55313 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB98140020F9EAE500D55313 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB9813E620F9EA8E00D55313 /* CollectionView3+DeleteCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CollectionView3+DeleteCell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9813E920F9EA8E00D55313 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB9813EB20F9EA8E00D55313 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB9813EE20F9EA8E00D55313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB9813F120F9EA8E00D55313 /* CollectionView3_DeleteCell.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CollectionView3_DeleteCell.xcdatamodel; sourceTree = "<group>"; };
 		DB9813F320F9EA8E00D55313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB9813F620F9EA8E00D55313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB9813F820F9EA8E00D55313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9813FE20F9EAD800D55313 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		DB98140020F9EAE500D55313 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				DB9813E920F9EA8E00D55313 /* AppDelegate.swift */,
-				DB9813EB20F9EA8E00D55313 /* ViewController.swift */,
+				DB9813FE20F9EAD800D55313 /* CollectionViewController.swift */,
+				DB98140020F9EAE500D55313 /* CollectionViewCell.swift */,
 				DB9813ED20F9EA8E00D55313 /* Main.storyboard */,
 				DB9813F320F9EA8E00D55313 /* Assets.xcassets */,
 				DB9813F520F9EA8E00D55313 /* LaunchScreen.storyboard */,
@@ -139,8 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB9813EC20F9EA8E00D55313 /* ViewController.swift in Sources */,
+				DB9813FF20F9EAD800D55313 /* CollectionViewController.swift in Sources */,
 				DB9813EA20F9EA8E00D55313 /* AppDelegate.swift in Sources */,
+				DB98140120F9EAE500D55313 /* CollectionViewCell.swift in Sources */,
 				DB9813F220F9EA8E00D55313 /* CollectionView3_DeleteCell.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
